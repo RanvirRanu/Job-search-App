@@ -1,4 +1,6 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/fcr-Lcjc)
+Hello!, This is an upload of my Job Listing Web App made for my SE2202 Scripting programming languages class, This was designed to run within a browser so it isn't available to view yet, Please bear with me as I build my portfolio website to be able to view this. A Json file is also attached with an example of listings to parse to view as it contains no internal database. Below, you can see the original readMe file for the assignment with the requirements and rubric( Not to brag but I got a 100%!) 
+
+
 # Mini Project 3: Upwork Jobs Analysis
 
 The Job Analysis Project involves analyzing job data from a JSON file, implementing filtering and sorting functionality on a webpage to help users easily explore job listings. The project aims to build a comprehensive user interface that allows for interactive data exploration, including filtering by job attributes and sorting job listings. This will give you practical experience in working with JSON data, JavaScript, and DOM manipulation.
