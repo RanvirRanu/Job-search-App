@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        #job-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .job-item {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .filter-group, .sort-group {
+            margin: 10px 0;
+        }
+        .details {
+            margin-top: 20px;
+            border-top: 1px solid #ddd;
+            padding-top: 10px;
+        }
+        .error {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Job Analysis</h1>
+        <input type="file" id="file-input" />
+        <div id="error" class="error"></div>
+        <div class="filter-group">
+            <label for="filter-level">Filter by Level:</label>
+            <select id="filter-level">
+                <option value="">All</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label for="filter-type">Filter by Type:</label>
+            <select id="filter-type">
+                <option value="">All</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label for="filter-skill">Filter by Skill:</label>
+            <select id="filter-skill">
+                <option value="">All</option>
+            </select>
+        </div>
+        <div class="sort-group">
+            <label for="sort-options">Sort by:</label>
+            <select id="sort-options">
+                <option value="">None</option>
+                <option value="title-asc">Title (A-Z)</option>
+                <option value="title-desc">Title (Z-A)</option>
+                <option value="time-oldest">Posted Time (Oldest First)</option>
+                <option value="time-newest">Posted Time (Newest First)</option>
+            </select>
+        </div>
+        <ul id="job-list"></ul>
+        <div class="details" id="job-details"></div>
+    </div>
+
+    <script src="JobAnalysis.js"></script>
+</body>
+</html>
